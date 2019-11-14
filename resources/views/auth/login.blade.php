@@ -63,8 +63,14 @@
                                 </a>
 
                                 <a href="{{ url('login/'.'google') }}" class="btn btn-primary">
-                                    Login with Google+
+                                    Login with Google
                                 </a>
+
+                                <a href="{{ url('login/'.'gitlab') }}" class="btn btn-primary">
+                                    Login with GitLab+
+                                </a>
+
+                                
 
                                 @if (Route::has('password.request'))
                                     <a class="btn btn-link" href="{{ route('password.request') }}">
